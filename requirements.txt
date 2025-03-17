@@ -1,5 +1,5 @@
-import streamlit as st
-import random
-
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
 import joblib
 import pickle
