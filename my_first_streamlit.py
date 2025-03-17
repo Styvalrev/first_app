@@ -2,7 +2,7 @@
 
 # question (h)
 import streamlit as st
-from tensorflow.keras import Sequential
+from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Dense, GlobalAveragePooling1D
 
 # question (i)
